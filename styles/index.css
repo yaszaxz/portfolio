@@ -1,0 +1,23 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Muda a estilização da tag "a" */
+.container
+{
+    text-align: center;
+}
+
+.container a
+{
+    background-color: palegreen;
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px; 
+}
+/* hover é passar o mouse por cima */
+.container a:hover
+{
+    background-color: rgb(187, 253, 187);
+}
