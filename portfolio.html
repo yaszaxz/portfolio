@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="./styles/portfolio.css">
-    <link rel="icon" href="2720550.png" type="image/x-icon">
+    <link rel="icon" href="./styles/imagens/icone-portfolio.png" type="image/x-icon">
 </head>
+
 <body>
     <header>
         <h1>Meu Portfolio</h1>
@@ -14,19 +16,27 @@
             <a href="index.html"> Início</a>
         </div>
         <div>
-        </header>
+    </header>
+    <main>
+        <section class="section1">
+
             <h2>Sobre Mim</h2>
-            <li>Meu nome é Thiago Zanin, nasci no dia 22 de fevereiro de 2008, em Joinville. Estudo no Colégio Católica Machado de Assis e estou no segundo ano do ensino médio.
+            <li>Meu nome é Thiago Zanin, nasci no dia 22 de fevereiro de 2008, em Joinville. Estudo no Colégio Católica
+                Machado de Assis e estou no segundo ano do ensino médio.
                 <br>
                 No ano de 2024 eu comecei a fazer o curso Jovem Programador, pelo SENAC Joinville para aprender programação.
             </li>
+        </section>
+        <section>
             <div>
-                <h2> Trabalhos feitos</h2>
+            <h2> Trabalhos feitos</h2>
                 <ul>
                     <li>Sistema de gerenciamento para uma agropecuária;</li>
                     <li>Aplicativo de gerenciamento de tarefas domésticas; </li>
                 </ul>
             </div>
+        </section>    
+        <section>
             <div>
                 <h2>Passatempo</h2>
                 <ol>
@@ -36,9 +46,39 @@
                     <li>Conversar com amigos.</li>
                 </ol>
             </div>
-        </div>
+        </section>    
+        <section>
+                <div>
+                <h2>Anexos</h2>
+                <img width="750" height="500" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zed_49.jpg" />
+                <div>
+                    <iframe width="750" height="500" src="https://www.youtube.com/embed/tN-I-cFsfCU?si=gCiLF8CJMLQp_nmo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </section>
+        <section>
+            <form>
+                <div>    
+                <label for ="nome">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Nome completo" required/>
+                </div>
+                <div>
+                    <label for="e-mail">e-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="exemplo@exemplo.com" required/>
+                </div>
+                <div>
+                    <label for="password">Senha:</label>
+                    <input class="class-senha" type="password" id="id-senha" name="senha"/>
+                </div>
+                <div>
+                    <button class="botao" type="submit">Salvar</button>
+                    <button class="botao" type="reset">Limpar</button> 
+                </div>
+            </form>
+        </section>
+    </main>
     <footer>
         Portfolio Thiago Zanin - 2024
-    </footer>    
+    </footer>
 </body>
+
 </html>
